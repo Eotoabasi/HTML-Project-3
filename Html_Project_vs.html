@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <table cellspacing="30">
+    <tr>
+  <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8aAkd-QaCRnD-jL3LPWVOGmQvbEa_oiWNH9F-oDLCJga53jn6dm3aEsn3qKWzJpVRF6A&usqp=CAU" width="150"></td>
+      <td><p><h2><b>University of the World</b></h2></p>
+    <p><b>Post Graduate Application Form</b></p></td>
+  </tr>
+  </table>
+</head>
+<body>
+  
+<form>
+  <h2><b>Personal Information</b></h2>
+  <hr>
+  <p><h3>Full Name</h3></p>
+    <input type="text" id="firstName" name="firstName" placeholder="Surname" size="30" required>&nbsp &nbsp &nbsp
+    <input type="text" id="middleName" name="middleName" placeholder="Middle Name" size="30" required>&nbsp &nbsp &nbsp
+   <input type="text" id="lastName" name="lastName" placeholder="Last Name" size="30" required><br><br>
+  
+<div style="display: flex;">
+  <label for="birthdate">Birthdate:</label>
+  <input type="date" id="birthdate" name="birthdate">&nbsp &nbsp &nbsp
+
+  <label for="gender">Gender:</label>
+  <select id="gender" name="gender">
+    <option value="male">Male</option>
+    <option value="female">Female</option>
+    <option value="other">Other</option>
+  </select>&nbsp &nbsp &nbsp
+
+  <label for="phoneNumber">Phone Number:</label>
+  <input type="tel" id="phoneNumber" name="phoneNumber" 
+         pattern="[0-9]{4} [0-9]{3} [0-9]{4}" required>
+</div><br><br>
+
+  <label for="email">Email:</label>
+  <input type="email" id="email" name="email" 
+         pattern=".com" size="80"><br><br><br>
+  
+   <label for="address">Address 1:</label>
+  <textarea cols="90" rows="4" id="address1" name="address1"></textarea><br><br>
+  
+<label for="address">Address 2:</label>
+  <textarea cols="90" rows="4" id="address2" name="address2"></textarea><br><br><br>
+
+<label for="ZipCode">Zip Code:</label>
+<input type="number" id="zipCode" name="zipCode">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
+
+<label for="City">City:</label>
+<input type="text" id="city" name="city" size="50"><br><br>
+
+<label for="state">State:</label>
+<input type="text" id="state" name="state" size="40">&nbsp &nbsp &nbsp
+
+<label for="country">Country:</label>
+<input type="text" id="country" name="country" size="40"><br>
+  <hr>
+  <p><h2>Educational Background</h2></p>
+<label for="college">College</label>
+<input type="text" id="college" name="college" size="50">&nbsp &nbsp &nbsp
+
+  <label for="degree">Degree program:</label>
+  <select id="degree" name="degree">
+    <option value="bachelors">Bachelors</option>
+    <option value="masters">Masters</option>
+    <option value="phd">PhD</option>
+  </select><br><br>
+
+<label for="course of study">Course of Study</label>
+<input type="text" id="CourseOfStudy" name="CourseOfStudy" size="50">&nbsp &nbsp &nbsp&nbsp &nbsp &nbsp
+  
+  <label for="gpa">GPA:</label>
+  <input type="text" step="0.01" min="0" max="4" id="gpa" name="gpa"><br><br>
+
+<label for="address">Address:</label>
+  <textarea cols="90" rows="4" id="address" name="address"></textarea><br><br>
+
+<label for="state">State:</label>
+<input type="text" id="state" name="state" size="30">&nbsp &nbsp &nbsp
+
+<label for="ZipCode">Zip Code:</label>
+<input type="zipCode" id="zipCode" name="zipCode" size="10">&nbsp &nbsp &nbsp
+
+<label for="country">Country:</label>
+<input type="text" id="country" name="country" size="30"><br>
+<hr>
+
+<p><b>Program of Study For Which You Wish To Apply</b></p>
+<label for="institute">Institute:</label>
+<input type="text" id="college" name="institute" size="50">&nbsp &nbsp &nbsp
+
+<label for="qualification">Qualification Sought:</label>
+  <select id="qualification" name="qualification" width="60">
+    <option value="ma">MA</option>
+    <option value="msc">MSc</option>
+    <option value="phd">PhD</option>
+  </select><br><br>
+
+<label for="researchArea">Research Subject Area:</label>
+<input type="text" id="researchArea" name="researchArea" size="50"><br><br>
+
+<div>
+Method of Study:
+  <label for="fullTime">Full Time</label>
+   <input type="checkbox" id="fullTime" name="fullTime" checked>
+    
+      <label for="partTime">Part Time</label>
+      <input type="checkbox" id="partTime" name="partTime">
+      </div>&nbsp &nbsp
+
+<p>Proposed Starting Date:</p>
+    <input type="text" id="month" name="month" placeholder="Month" size="10" required>
+    <input type="text" id="year" name="year" placeholder="Year" size="10" required>&nbsp &nbsp &nbsp
+<br><br>
+  
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+
+</html>
